@@ -1,3 +1,7 @@
+.first-page, .what-why-page{
+	height: 720px;
+}
+
 .main-logo{
 	width: 500px;
 	padding-top: 200px;
@@ -30,9 +34,101 @@
 	opacity: 1;
 }
 
-h2{
+h3{
+	width: 200px;
+	height: 200px;
+}
+
+h3 .r-written, h3 .g-written, h3 .b-written{
+	font-family: Helvetica;
+	font-weight: bold;
+	color: white;
+	font-size: 35px;
+}
+
+h3 .r-written{
+	margin-left: 88px;
+	margin-top: 25px;
+}
+
+h3 .g-written{
+	margin-left: 140px;
+}
+
+h3 .b-written{
+	margin-left: 120px;
+}
+
+
+h2 {
 	text-align: center;
 	font-family: Helvetica;
 	color: rgb(146,146,146);
 	font-weight: 200;
+}
+
+h1 {
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 50px;
+	font-family: Helvetica;
+	color: black;
+	font-weight: 200;
+}
+
+h4 {
+	text-align: center;
+	font-family: Helvetica;
+	color: black;
+	font-weight: bold;
+	margin-top: 80px;
+	font-size: 1.2em;
+}
+
+h5{
+	text-align: justify;
+	font-family: Helvetica;
+	color: black;
+	font-weight: 300;
+	font-size: 1.2em;
+}
+
+.auto-bubble, .solution-bubble, .digital-bubble{
+	border: 8px solid;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+
+.auto-bubble{
+	border-color: red;
+	margin-bottom: -30px;
+	margin-top: -20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.solution-bubble{
+	border-color: green;
+}
+
+.digital-bubble{
+	border-color: blue;
+}
+
+.solution-desc, .solution-bubble, .digital-bubble, .digital-desc{
+	float: left;
+	margin: 5px;
+}
+
+.solution-desc, .digital-desc, .auto-desc{
+	width: 476px;
+}
+
+.auto-desc{
+	margin: auto;
+}
+
+.auto-desc{
+	margin-bottom: 20px;
 }
