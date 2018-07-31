@@ -1,0 +1,31 @@
+.main-logo{
+	width: 500px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	margin: auto;
+}
+
+.red-balloon, .green-balloon, .blue-balloon{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	opacity: 0.9;
+}
+
+.red-balloon{
+	background-color: rgb(255,48,42);
+	float:left;
+}
+
+.green-balloon{
+	background-color: rgb(62,218,51);
+	float:left;
+	margin-left: -50px;
+}
+
+.blue-balloon{
+	background-color: rgb(36,46,255);
+	float:left;
+	margin-left: -50px;
+	opacity: 1;
+}
