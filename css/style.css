@@ -1,4 +1,4 @@
-.first-page, .what-why-page{
+.first-page, .what-why-page, .our-process{
 	height: 720px;
 }
 
@@ -131,4 +131,37 @@ h5{
 
 .auto-desc{
 	margin-bottom: 20px;
+}
+
+/*---------------------------*/
+
+.first-meeting{
+	background-image: url("../img/meeting.png");
+}
+
+.workshop{
+	background-image: url("../img/workshop.png");
+}
+
+.research{
+	background-image: url("../img/research.png");
+}
+
+.briefing{
+	background-image: url("../img/briefing.png");
+}
+
+.briefing, .workshop, .research, .first-meeting{
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 200px;
+}
+
+.first-meeting{
+	margin-left: 200px;
 }
